@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/blackground_splash</item>
+    </style>
+
+    <style name="Text_Centrado">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textColor">@color/colorDarkText</item>
+    </style>
+
+    <style name="TextS_Big">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/padding1</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/textsize_big</item>
+        <item name="android:textColor">@color/colorDarkText</item>
+    </style>
+
+
+    <style name="Text_Info">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/padding1</item>
+        <item name="android:textSize">@dimen/textsize_info</item>
+        <item name="android:textColor">@color/colorDarkText</item>
+        <item name="android:background">@color/colorLightText</item>
+    </style>
+
+    <style name="Icon_detail">
+        <item name="android:layout_width">@dimen/iconDetailSize</item>
+        <item name="android:layout_height">@dimen/iconDetailSize</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

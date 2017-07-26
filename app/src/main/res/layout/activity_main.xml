@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicapp.MainActivity"
+    android:background="@color/colorAzulIndigo"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/image_Intro"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/intro"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="8dp"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            style="@style/TextS_Big"
+            android:id="@+id/textV_InfoMain"
+            android:text="@string/Info_Main"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="8dp"
+            android:background="@color/colorAccent"/>
+
+
+        <LinearLayout
+            android:id="@+id/Linear_Icons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/Linear_Player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+                <TextView
+                    style="@style/TextS_Big"
+                    android:id="@+id/textV_Player"
+                    android:text="@string/UI_Player"/>
+                <ImageView
+                    android:id="@+id/ic_player"
+                    style="@style/Icon_detail"
+                    android:src="@drawable/radio"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Linear_Album"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+                <TextView
+                    style="@style/TextS_Big"
+                    android:id="@+id/textV_Album"
+                    android:text="@string/UI_Album"/>
+                <ImageView
+                    android:id="@+id/ic_maps"
+                    style="@style/Icon_detail"
+                    android:src="@drawable/music_album"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="8dp"
+                android:background="@color/colorAccent"/>
+
+            <LinearLayout
+                android:id="@+id/Linear_Artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+                <TextView
+                    style="@style/TextS_Big"
+                    android:id="@+id/textV_Artist"
+                    android:text="@string/UI_Artist"/>
+                <ImageView
+                    android:id="@+id/ic_artist"
+                    style="@style/Icon_detail"
+                    android:src="@drawable/microphone"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="8dp"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            style="@style/Text_Info"
+            android:id="@+id/textV_InfoSynthWave"
+            android:text="@string/Info_MusiCall"/>
+
+    </LinearLayout>
+
+</ScrollView>

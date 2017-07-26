@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Musi-cAl(l)</string>
+    <string name="Music_Player">Musi-cAl(l)</string>
+    <string name="UIName">Name</string>
+    <string name="UIYear">Year</string>
+    <string name="UIDesc">Description</string>
+    <string name="UIPhoto">Image</string>
+    <string name="UI_Buy">Buy</string>
+    <string name="UI_Share">Share</string>
+    <string name="UI_Genre">Music Genre</string>
+    <string name="UI_Album">Albums</string>
+    <string name="UI_Player">Performer</string>
+    <string name="UI_Artist">Artist</string>
+    <string name="UI_Play">Play</string>
+    <string name="UI_Rewind">Rewind</string>
+    <string name="UI_Forwardr">Forward</string>
+    <string name="Like">Tetszik</string>
+    <string name="Alb_DaftPunk1_Name">Homework</string>
+    <string name="Alb_DaftPunk1_Desc">Early years of duo.</string>
+    <string name="Alb_DaftPunk1_Year">1993–1999</string>
+    <string name="Alb_DaftPunk2_Name">Discovery</string>
+    <string name="Alb_DaftPunk2_Desc">Everybody knows this album.</string>
+    <string name="Alb_DaftPunk2_Year">1999–2003</string>
+    <string name="Alb_DaftPunk3_Name">Human After All</string>
+    <string name="Alb_DaftPunk3_Desc">Known from Robotroc or Technologic</string>
+    <string name="Alb_DaftPunk3_Year">2004–2007</string>
+    <string name="Alb_DaftPunk4_Name">Tron: Legacy</string>
+    <string name="Alb_DaftPunk4_Desc">The movie had these sounds in the movie.</string>
+    <string name="Alb_DaftPunk4_Year">2007–2011</string>
+
+    <string name="Info_Description">Info of each album. We could share the content in several social networks or buy it from Google PlayStore</string>
+    <string name="Info_Main">From the Main Activity we can select the other activities</string>
+    <string name="Info_Player">Player info that could play audio files from the files inside the device or by the API of some streaming service</string>
+    <string name="Info_Artist">Info about the Artists, we could use the Web Apis, to have the info in a JSON and display it to the user</string>
+    <string name="Info_DaftPunk">Daft Punk are a French electronic music duo formed in 1993
+        by Guy-Manuel de Homem-Christo and Thomas Bangalter.</string>
+    <string name="Info_MusiCall">Electronic music is music that employs electronic musical instruments, digital
+        instruments and circuitry-based music technology.</string>
+
+</resources>
